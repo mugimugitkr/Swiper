@@ -1,18 +1,6 @@
 $(function () {
   //initialize swiper when document ready
-  new Swiper('.swiper-container', {
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-    loop: true,
-    autoplay: {
-      delay: 3000,
-      disableOnInteraction: true
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-    },
-  });
+  var mySwiper = new Swiper ('.swiper-container', {
+    loop: true
+  })
 });
